@@ -1,0 +1,8 @@
+{
+  "GOOGLE_MAPS_API_KEY": "your-maps-key-here",
+  "GEMINI_API_KEY": "your-gemini-key-here",
+  "GEMINI_MODEL": "gemini-3.6-flash",
+
+  "_comment_EMERGENCY_NUMBER": "Optional. Number SOS dials when no emergency contact is saved. Defaults to 112. Point a test build at a phone you own so an accidental SOS never reaches real emergency services.",
+  "EMERGENCY_NUMBER": "112"
+}

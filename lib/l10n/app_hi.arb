@@ -1,0 +1,463 @@
+{
+  "appTitle": "एक्सेसिबिलिटी नेविगेटर",
+  "initializing": "आरंभ हो रहा है...",
+  "readyCameraActive": "तैयार। कैमरा सक्रिय है।",
+  "cameraInitFailed": "कैमरा आरंभ करने में विफल। कृपया अनुमतियां जांचें।",
+  "errorStartingApp": "ऐप शुरू करने में त्रुटि। कृपया पुनरारंभ करें।",
+  "appReadySpeak": "ऐप तैयार है। कैमरा सक्रिय है और बाधाओं की तलाश कर रहा है।",
+  "cameraEnabled": "कैमरा सक्षम",
+  "cameraDisabled": "कैमरा अक्षम",
+  "cameraScanning": "कैमरा सक्षम। बाधाओं की तलाश की जा रही है।",
+  "navigationStarted": "नेविगेशन शुरू हो रहा है",
+  "navigationStopped": "नेविगेशन रुक गया",
+  "navigationStoppedCameraActive": "नेविगेशन रुक गया। कैमरा सक्रिय है।",
+  "youHaveArrived": "आप पहुंच गए हैं।",
+  "sosActivated": "SOS सक्रिय हो गया।",
+  "sosEmergencyHelpRequested": "आपातकालीन सहायता का अनुरोध किया गया।",
+  "autoDescriptionEnabled": "ऑटो विवरण सक्षम",
+  "autoDescriptionDisabled": "ऑटो विवरण अक्षम",
+  "autoDescriptionPaused": "ऑटो विवरण रुका हुआ है",
+  "autoDescriptionResumed": "ऑटो विवरण फिर से शुरू",
+  "timeIs": "समय है {hour}:{minute} {suffix}",
+  "@timeIs": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      },
+      "minute": {
+        "type": "String"
+      },
+      "suffix": {
+        "type": "String"
+      }
+    }
+  },
+  "batteryLevelIs": "बैटरी स्तर {level} है।",
+  "@batteryLevelIs": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "checkingLocation": "स्थान जांचा जा रहा है...",
+  "youAreAtCoordinates": "आप अक्षांश {lat} और देशांतर {lng} पर हैं।",
+  "@youAreAtCoordinates": {
+    "placeholders": {
+      "lat": {
+        "type": "String"
+      },
+      "lng": {
+        "type": "String"
+      }
+    }
+  },
+  "unableToGetLocation": "वर्तमान स्थान प्राप्त नहीं हो सका।",
+  "locationError": "स्थान त्रुटि।",
+  "flashlightOn": "टॉर्च चालू",
+  "flashlightOff": "टॉर्च बंद",
+  "speechSpeedIncreased": "बोलने की गति बढ़ा दी गई।",
+  "speechSpeedDecreased": "बोलने की गति घटा दी गई।",
+  "alreadyPaused": "पहले से रुका हुआ है।",
+  "alreadyActive": "पहले से सक्रिय है।",
+  "cameraIsOn": "कैमरा चालू है",
+  "cameraIsOff": "कैमरा बंद है",
+  "navigationIsActive": "नेविगेशन सक्रिय है",
+  "navigationIsNotActive": "नेविगेशन सक्रिय नहीं है",
+  "autoDescribeIsOn": "स्वतः विवरण चालू है",
+  "autoDescribeIsOff": "स्वतः विवरण बंद है",
+  "obstacleWarning": "सावधान! {description}",
+  "@obstacleWarning": {
+    "placeholders": {
+      "description": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseWaitInitializing": "कृपया प्रतीक्षा करें, ऐप शुरू हो रहा है।",
+  "couldNotGetLocationGps": "स्थान नहीं मिला। कृपया जीपीएस जांचें।",
+  "openingGoogleMaps": "आंतरिक दिशा-निर्देश नहीं मिले। गूगल मैप्स खोला जा रहा है।",
+  "couldNotOpenGoogleMaps": "गूगल मैप्स नहीं खुल सका।",
+  "sosError": "एसओएस में त्रुटि। कृपया स्वयं कॉल करने का प्रयास करें।",
+  "contactAdded": "संपर्क जोड़ा गया",
+  "pleaseSpecifyLocationName": "कृपया स्थान का नाम बताएं।",
+  "navigatingTo": "{name} की ओर नेविगेट किया जा रहा है।",
+  "@navigatingTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "locationSavedAs": "स्थान {name} के रूप में सहेजा गया।",
+  "@locationSavedAs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToSaveLocation": "स्थान सहेजने में विफल। नाम पहले से मौजूद हो सकता है।",
+  "listeningForCommand": "आदेश सुना जा रहा है",
+  "cameraNotReady": "कैमरा तैयार नहीं है",
+  "capturingPhoto": "फ़ोटो ली जा रही है",
+  "textDetected": "पाठ मिला: {text}",
+  "@textDetected": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "analyzingSceneWithAi": "एआई से दृश्य का विश्लेषण किया जा रहा है",
+  "photoCapturedNoGemini": "फ़ोटो ली गई। एआई विवरण उपलब्ध नहीं है।",
+  "errorCapturingPhoto": "फ़ोटो लेने में त्रुटि",
+  "readingTextFromCamera": "कैमरे से पाठ पढ़ा जा रहा है",
+  "textFound": "पाठ मिला: {text}",
+  "@textFound": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "noTextDetectedInView": "दृश्य में कोई पाठ नहीं मिला",
+  "errorReadingText": "पाठ पढ़ने में त्रुटि",
+  "sosCancelledCameraActive": "एसओएस रद्द। कैमरा सक्रिय।",
+  "fallDetectedTapToCancel": "गिरना पता चला। रद्द करने के लिए कहीं भी टैप करें।",
+  "sosTriggeredTapToCancel": "एसओएस सक्रिय। रद्द करने के लिए कहीं भी टैप करें।",
+  "sosSequenceActivated": "आपातकालीन अनुक्रम सक्रिय। {seconds} सेकंड में कॉल किया जाएगा। रद्द करने के लिए स्क्रीन पर कहीं भी टैप करें या वॉल्यूम बटन दबाएं।",
+  "@sosSequenceActivated": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSecondsRemaining": "{seconds} सेकंड",
+  "@sosSecondsRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSequenceCancelled": "आपातकालीन अनुक्रम रद्द कर दिया गया।",
+  "sosSpokenCallMessage": "नमस्ते। यह एक स्वचालित आपातकालीन कॉल है। उपयोगकर्ता उत्तर देने में असमर्थ हो सकता है। कृपया मदद भेजें। स्थान का विवरण संदेश द्वारा भेजा गया है।",
+  "emergencyContactsTitle": "आपातकालीन संपर्क",
+  "noContactsYet": "अभी कोई संपर्क नहीं। किसी ऐसे व्यक्ति को जोड़ें जो मदद कर सके।",
+  "addContactButton": "संपर्क जोड़ें",
+  "addEmergencyContactTitle": "आपातकालीन संपर्क जोड़ें",
+  "contactNameLabel": "नाम",
+  "contactPhoneLabel": "फ़ोन नंबर",
+  "removeContactLabel": "{name} को हटाएं",
+  "@removeContactLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "actionCancel": "रद्द करें",
+  "actionAdd": "जोड़ें",
+  "actionClose": "बंद करें",
+  "contactRemoved": "{name} हटा दिया गया",
+  "@contactRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactNeedsNameAndNumber": "नाम और फ़ोन नंबर दोनों दर्ज करें।",
+  "initializingCamera": "कैमरा शुरू हो रहा है...",
+  "listeningIndicator": "सुन रहा है...",
+  "destinationHint": "गंतव्य (वैकल्पिक)",
+  "actionStart": "शुरू",
+  "actionStop": "रोकें",
+  "actionSos": "एसओएस",
+  "actionCameraOn": "कैमरा चालू",
+  "actionCameraOff": "कैमरा बंद",
+  "actionAutoOn": "स्वतः चालू",
+  "actionAutoOff": "स्वतः बंद",
+  "actionNext": "अगला",
+  "actionContacts": "संपर्क",
+  "actionMap": "नक्शा",
+  "actionPhoto": "फ़ोटो",
+  "actionCapturing": "ली जा रही है...",
+  "actionReadText": "पाठ पढ़ें",
+  "actionVoice": "आवाज़",
+  "actionSettings": "सेटिंग्स",
+  "actionTutorial": "ट्यूटोरियल",
+  "demoModeOn": "डेमो चालू",
+  "demoModeOff": "डेमो बंद",
+  "cancelEmergencyHint": "आपातकाल रद्द करें। रद्द करने के लिए कहीं भी टैप करें।",
+  "emergencyNumberTitle": "आपातकालीन नंबर",
+  "emergencyNumberHelp": "केवल तब डायल किया जाता है जब कोई आपातकालीन संपर्क सहेजा न हो। 112 यूरोप और भारत में काम करता है; अमेरिका में 911।",
+  "emergencyNumberSaved": "आपातकालीन नंबर {number} पर सेट किया गया",
+  "@emergencyNumberSaved": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "testBuildWarning": "परीक्षण बिल्ड: एसओएस {number} डायल करता है, आपातकालीन सेवाओं को नहीं।",
+  "@testBuildWarning": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "sosEmergencyHeading": "एसओएस आपातकाल",
+  "sosHelpRequested": "मदद का अनुरोध किया गया है",
+  "sosAlertFailed": "आपातकालीन अलर्ट विफल",
+  "sosStatusHeading": "स्थिति",
+  "sosLocationHeading": "स्थान",
+  "sosEmergencyCallLabel": "आपातकालीन कॉल",
+  "sosCallMade": "किया गया",
+  "sosCallNotMade": "नहीं किया गया",
+  "sosSmsTo": "{name} को संदेश",
+  "@sosSmsTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSmsSent": "भेजा गया",
+  "sosCallNumber": "{number} पर कॉल करें",
+  "@sosCallNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSendSms": "संदेश भेजें",
+  "sosCoordinates": "निर्देशांक: {lat}, {lng}",
+  "@sosCoordinates": {
+    "placeholders": {
+      "lat": {
+        "type": "String"
+      },
+      "lng": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceCommandTitle": "आवाज़ आदेश",
+  "voiceTapMicToSpeak": "बोलने के लिए माइक टैप करें",
+  "voiceProcessing": "संसाधित हो रहा है...",
+  "voiceEnterCommand": "आदेश दर्ज करें",
+  "voiceExecute": "चलाएं",
+  "voiceUnavailableTyped": "आवाज़ पहचान उपलब्ध नहीं है। कृपया अपना आदेश टाइप करें।",
+  "mapTitle": "लाइव नक्शा",
+  "mapDestination": "गंतव्य",
+  "mapLocationInvalid": "स्थान मान्य नहीं है",
+  "settingsTitle": "सेटिंग्स",
+  "settingsTextSize": "पाठ का आकार",
+  "settingsButtonSize": "बटन का आकार",
+  "settingsContrast": "कंट्रास्ट",
+  "settingsVibration": "कंपन की तीव्रता",
+  "settingsVoiceSpeed": "आवाज़ की गति",
+  "settingsCommandDelay": "आदेश विलंब",
+  "settingsCommandDelayHelp": "आवाज़ आदेश चलाने से पहले रुकें",
+  "voiceUseKeyboard": "इसके बजाय आदेश टाइप करें",
+  "voiceUseMicrophone": "इसके बजाय आदेश बोलें",
+  "voiceUnavailable": "आवाज़ आदेश उपलब्ध नहीं हैं। जांचें कि माइक्रोफ़ोन की अनुमति दी गई है।",
+  "voiceNothingHeard": "मुझे कुछ सुनाई नहीं दिया। फिर से कोशिश करें।",
+  "voiceNotUnderstood": "मैं समझ नहीं पाया। आदेशों की सूची सुनने के लिए मदद कहें।",
+  "voiceHelpList": "आप कह सकते हैं: नेविगेशन शुरू करो, रुको, अगला, दोहराओ, बताओ, सामने क्या है, कैमरा चालू, कैमरा बंद, टॉर्च चालू, पाठ पढ़ो, आसपास क्या है, समय, बैटरी, मैं कहाँ हूँ, तेज़, धीरे, चुप, जारी, स्थिति, कहीं ले चलो, या एसओएस।",
+  "nearbyPlacesSearching": "आसपास की जगहें खोजी जा रही हैं",
+  "nearbyPlacesNone": "मुझे आसपास कुछ नहीं मिला",
+  "nearbyPlacesUnavailable": "आसपास की जगहें अभी उपलब्ध नहीं हैं",
+  "nearbyPlacesFound": "आसपास: {places}",
+  "@nearbyPlacesFound": {
+    "placeholders": {
+      "places": {
+        "type": "String"
+      }
+    }
+  },
+  "nearbyPlaceItem": "{name}, {distance} मीटर",
+  "@nearbyPlaceItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsStart": "नेविगेशन शुरू करें",
+  "semanticsStop": "नेविगेशन बंद करें",
+  "semanticsSos": "आपातकालीन एसओएस",
+  "semanticsNext": "अगला चरण",
+  "semanticsCameraOn": "बाधा पहचान, चालू",
+  "semanticsCameraOff": "बाधा पहचान, बंद",
+  "semanticsAutoDescribeOn": "बोलकर विवरण, चालू",
+  "semanticsAutoDescribeOff": "बोलकर विवरण, बंद",
+  "semanticsPhoto": "फ़ोटो का विवरण दें",
+  "semanticsReadText": "पाठ पढ़ें",
+  "semanticsVoice": "आवाज़ आदेश",
+  "hintDestinationField": "आप कहाँ जाना चाहते हैं लिखें, फिर नेविगेशन शुरू करें दबाएँ",
+  "hintNavigate": "ऊपर दिए गंतव्य तक बोलकर दिशा-निर्देश शुरू करता है",
+  "hintStopNavigation": "आप जिस मार्ग पर चल रहे हैं उसे समाप्त करता है",
+  "hintSos": "दस सेकंड की गिनती शुरू करता है, फिर आपके आपातकालीन संपर्कों को संदेश और कॉल करता है। गिनती के दौरान रद्द करने के लिए स्क्रीन पर कहीं भी टैप करें",
+  "hintNext": "आपके मार्ग की अगली दिशा पढ़ता है",
+  "hintCamera": "बाधा पहचान को चालू या बंद करता है",
+  "hintAutoDescribe": "आसपास के स्वचालित बोले गए विवरण को चालू या बंद करता है",
+  "hintContacts": "आपातकाल में संपर्क किए जाने वाले लोगों की सूची खोलता है",
+  "hintMap": "आपके स्थान का लाइव मानचित्र खोलता है",
+  "hintPhoto": "फ़ोटो लेता है और बताता है कि उसमें क्या है",
+  "hintReadText": "कैमरे को दिखने वाला कोई भी पाठ पढ़कर सुनाता है",
+  "hintVoice": "आवाज़ आदेश खोलता है। आप स्क्रीन पर तीन बार टैप भी कर सकते हैं",
+  "hintSettings": "पाठ का आकार, भाषण और आपातकालीन सेटिंग्स खोलता है",
+  "hintTutorial": "ऐप का उपयोग कैसे करें यह बताता है",
+  "hintDemoMode": "लाइव सेवाओं के बजाय नमूना डेटा के साथ ऐप चलाता है",
+  "settingsBackgroundProtection": "पृष्ठभूमि में गिरावट सुरक्षा",
+  "settingsBackgroundProtectionHelp": "ऐप बंद होने या स्क्रीन बंद होने पर भी गिरने पर नज़र रखता है। एक स्थायी सूचना दिखेगी और थोड़ी अधिक बैटरी खर्च होगी।",
+  "settingsBackgroundProtectionOn": "पृष्ठभूमि गिरावट सुरक्षा चालू की गई",
+  "settingsBackgroundProtectionOff": "पृष्ठभूमि गिरावट सुरक्षा बंद की गई",
+  "backgroundSosBannerTitle": "संभावित गिरावट का पता चला",
+  "backgroundSosBannerBody": "जल्द ही मदद के लिए कॉल किया जाएगा। यदि आप ठीक हैं तो रद्द करें दबाएं।",
+  "backgroundSosCancelButton": "आपातकाल रद्द करें",
+  "settingsAddFromContacts": "संपर्कों से जोड़ें",
+  "settingsNoContactSelected": "कोई संपर्क नहीं चुना गया, या अनुमति अस्वीकृत",
+  "settingsResetDefaults": "डिफ़ॉल्ट पर रीसेट करें",
+  "settingsResetDone": "सेटिंग्स डिफ़ॉल्ट पर रीसेट की गईं",
+  "settingsCurrentValue": "वर्तमान: {value}",
+  "@settingsCurrentValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsErrorGeneric": "त्रुटि: {message}",
+  "@settingsErrorGeneric": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNoContacts": "कोई संपर्क नहीं जोड़ा गया",
+  "tutorialTitle": "ट्यूटोरियल ({current} / {total})",
+  "@tutorialTitle": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialNext": "अगला",
+  "tutorialPrevious": "पिछला",
+  "tutorialFinish": "समाप्त",
+  "tutorialComplete": "ट्यूटोरियल पूरा हुआ। अब आप ऐप का उपयोग कर सकते हैं।",
+  "tutorialWelcomeTitle": "स्वागत है",
+  "tutorialWelcomeBody": "GaBN में आपका स्वागत है। यह ऐप आपके कैमरे और आवाज़ आदेशों की मदद से सुरक्षित रूप से चलने में सहायता करता है।",
+  "tutorialCameraTitle": "कैमरा पूर्वावलोकन",
+  "tutorialCameraBody": "कैमरा पूर्वावलोकन दिखाता है कि आपके सामने क्या है। फ़ोन को सीधा, आगे की ओर रखें।",
+  "tutorialObstacleTitle": "बाधा पहचान",
+  "tutorialObstacleBody": "ऐप आपके सामने की वस्तुओं का पता लगाता है। यह बताएगा कि आगे कौन सी बाधाएं हैं और वे कहां हैं।",
+  "tutorialSosTitle": "आपातकालीन एसओएस",
+  "tutorialSosBody": "अलर्ट भेजने के लिए एसओएस बटन दबाएं या फ़ोन को ज़ोर से हिलाएं। आपका स्थान आपके आपातकालीन संपर्कों को भेजा जाता है। रद्द करने के लिए कहीं भी टैप करें या वॉल्यूम बटन दबाएं।",
+  "tutorialVoiceTitle": "आवाज़ आदेश",
+  "tutorialVoiceBody": "आप ऐप को आवाज़ से नियंत्रित कर सकते हैं। सभी आदेश सुनने के लिए \"help\" कहें, या \"navigate to\" के बाद स्थान का नाम कहें।",
+  "tutorialPhotoTitle": "फ़ोटो लेना",
+  "tutorialPhotoBody": "फ़ोटो लेने के लिए फ़ोटो बटन दबाएं या वॉल्यूम बटन दो बार दबाएं। ऐप बताएगा कि उसे क्या दिखता है।",
+  "tutorialTextTitle": "पाठ पढ़ना",
+  "tutorialTextBody": "कैमरे में दिखने वाला कोई भी पाठ पढ़ने के लिए पाठ पढ़ें बटन दबाएं, या \"read text\" कहें।",
+  "tutorialSavedTitle": "सहेजे गए स्थान",
+  "tutorialSavedBody": "आप अपना वर्तमान स्थान सहेज सकते हैं और बाद में \"navigate to\" और नाम कहकर वहां जा सकते हैं, जैसे \"navigate to home\"।",
+  "tutorialSettingsTitle": "सेटिंग्स",
+  "tutorialSettingsBody": "ऐप को उपयोग में आसान बनाने के लिए सेटिंग्स में पाठ का आकार, बटन का आकार और कंट्रास्ट समायोजित करें।",
+  "sosSmsNeedsSend": "आपको भेजें दबाना होगा",
+  "sosSmsFailed": "विफल",
+  "routeFound": "मार्ग मिल गया। {distance}। {duration}।",
+  "@routeFound": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "saveLocationTitle": "स्थान सहेजें",
+  "settingsTextSizeSet": "पाठ का आकार {value} पर सेट किया गया",
+  "@settingsTextSizeSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsButtonSizeSet": "बटन का आकार {value} प्रतिशत पर सेट किया गया",
+  "@settingsButtonSizeSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsContrastSet": "कंट्रास्ट {value} पर सेट किया गया",
+  "@settingsContrastSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsVibrationSet": "कंपन की तीव्रता {value} प्रतिशत",
+  "@settingsVibrationSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsCommandDelaySet": "आदेश विलंब {value} मिलीसेकंड",
+  "@settingsCommandDelaySet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsVoiceSpeedSet": "आवाज़ की गति {value}",
+  "@settingsVoiceSpeedSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "contactAddedNamed": "{name} को आपातकालीन संपर्कों में जोड़ा गया",
+  "@contactAddedNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosCallingContact": "कॉल किया जा रहा है: {name}",
+  "@sosCallingContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosOverlayHeading": "आपातकालीन एसओएस",
+  "actionCancelUpper": "रद्द करें",
+  "sosEmergencyServices": "आपातकालीन सेवाएं"
+}

@@ -1,0 +1,466 @@
+{
+  "appTitle": "Accessibility Navigator",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "initializing": "Initializing...",
+  "readyCameraActive": "Ready. Camera active.",
+  "cameraInitFailed": "Camera initialization failed. Please check permissions.",
+  "errorStartingApp": "Error starting app. Please restart.",
+  "appReadySpeak": "App ready. Camera is active and scanning for obstacles.",
+  "cameraEnabled": "Camera enabled",
+  "cameraDisabled": "Camera disabled",
+  "cameraScanning": "Camera enabled. Scanning for obstacles.",
+  "navigationStarted": "Starting navigation",
+  "navigationStopped": "Navigation stopped",
+  "navigationStoppedCameraActive": "Navigation stopped. Camera active.",
+  "youHaveArrived": "You have arrived.",
+  "sosActivated": "SOS activated.",
+  "sosEmergencyHelpRequested": "Emergency help requested.",
+  "autoDescriptionEnabled": "Auto description enabled",
+  "autoDescriptionDisabled": "Auto description disabled",
+  "autoDescriptionPaused": "Auto description paused",
+  "autoDescriptionResumed": "Auto description resumed",
+  "timeIs": "It is {hour}:{minute} {suffix}",
+  "@timeIs": {
+    "placeholders": {
+      "hour": {
+        "type": "String"
+      },
+      "minute": {
+        "type": "String"
+      },
+      "suffix": {
+        "type": "String"
+      }
+    }
+  },
+  "batteryLevelIs": "Battery level is {level}.",
+  "@batteryLevelIs": {
+    "placeholders": {
+      "level": {
+        "type": "String"
+      }
+    }
+  },
+  "checkingLocation": "Checking location...",
+  "youAreAtCoordinates": "You are at latitude {lat} and longitude {lng}.",
+  "@youAreAtCoordinates": {
+    "placeholders": {
+      "lat": {
+        "type": "String"
+      },
+      "lng": {
+        "type": "String"
+      }
+    }
+  },
+  "unableToGetLocation": "Unable to get current location.",
+  "locationError": "Location error.",
+  "flashlightOn": "Flashlight on",
+  "flashlightOff": "Flashlight off",
+  "speechSpeedIncreased": "Speech speed increased.",
+  "speechSpeedDecreased": "Speech speed decreased.",
+  "alreadyPaused": "Already paused.",
+  "alreadyActive": "Already active.",
+  "cameraIsOn": "Camera is on",
+  "cameraIsOff": "Camera is off",
+  "navigationIsActive": "Navigation is active",
+  "navigationIsNotActive": "Navigation is not active",
+  "autoDescribeIsOn": "Auto describe is on",
+  "autoDescribeIsOff": "Auto describe is off",
+  "obstacleWarning": "Warning! {description}",
+  "@obstacleWarning": {
+    "placeholders": {
+      "description": {
+        "type": "String"
+      }
+    }
+  },
+  "pleaseWaitInitializing": "Please wait, app is initializing.",
+  "couldNotGetLocationGps": "Could not get location. Please check GPS.",
+  "openingGoogleMaps": "Could not find internal directions. Opening Google Maps.",
+  "couldNotOpenGoogleMaps": "Could not open Google Maps.",
+  "sosError": "Error with SOS. Please try calling manually.",
+  "contactAdded": "Contact added",
+  "pleaseSpecifyLocationName": "Please specify a location name.",
+  "navigatingTo": "Navigating to {name}.",
+  "@navigatingTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "locationSavedAs": "Location saved as {name}.",
+  "@locationSavedAs": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToSaveLocation": "Failed to save location. Name may already exist.",
+  "listeningForCommand": "Listening for command",
+  "cameraNotReady": "Camera not ready",
+  "capturingPhoto": "Capturing photo",
+  "textDetected": "Text detected: {text}",
+  "@textDetected": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "analyzingSceneWithAi": "Analyzing scene with AI",
+  "photoCapturedNoGemini": "Photo captured. AI description is not available.",
+  "errorCapturingPhoto": "Error capturing photo",
+  "readingTextFromCamera": "Reading text from camera",
+  "textFound": "Text found: {text}",
+  "@textFound": {
+    "placeholders": {
+      "text": {
+        "type": "String"
+      }
+    }
+  },
+  "noTextDetectedInView": "No text detected in view",
+  "errorReadingText": "Error reading text",
+  "sosCancelledCameraActive": "SOS cancelled. Camera active.",
+  "fallDetectedTapToCancel": "Fall detected. Tap anywhere to cancel.",
+  "sosTriggeredTapToCancel": "SOS triggered. Tap anywhere to cancel.",
+  "sosSequenceActivated": "Emergency sequence activated. Calling in {seconds} seconds. To cancel, tap anywhere on the screen or press a volume button.",
+  "@sosSequenceActivated": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSecondsRemaining": "{seconds} seconds",
+  "@sosSecondsRemaining": {
+    "placeholders": {
+      "seconds": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSequenceCancelled": "Emergency sequence cancelled.",
+  "sosSpokenCallMessage": "Hello. This is an automated emergency call. The user may be unable to respond. Please send help. Location details sent via text message.",
+  "emergencyContactsTitle": "Emergency Contacts",
+  "noContactsYet": "No contacts yet. Add someone who can help.",
+  "addContactButton": "Add contact",
+  "addEmergencyContactTitle": "Add Emergency Contact",
+  "contactNameLabel": "Name",
+  "contactPhoneLabel": "Phone number",
+  "removeContactLabel": "Remove {name}",
+  "@removeContactLabel": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "actionCancel": "Cancel",
+  "actionAdd": "Add",
+  "actionClose": "Close",
+  "contactRemoved": "{name} removed",
+  "@contactRemoved": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "contactNeedsNameAndNumber": "Enter both a name and a phone number.",
+  "initializingCamera": "Initializing camera...",
+  "listeningIndicator": "Listening...",
+  "destinationHint": "Destination (optional)",
+  "actionStart": "START",
+  "actionStop": "STOP",
+  "actionSos": "SOS",
+  "actionCameraOn": "CAM ON",
+  "actionCameraOff": "CAM OFF",
+  "actionAutoOn": "AUTO ON",
+  "actionAutoOff": "AUTO OFF",
+  "actionNext": "NEXT",
+  "actionContacts": "CONTACTS",
+  "actionMap": "MAP",
+  "actionPhoto": "PHOTO",
+  "actionCapturing": "CAPTURING...",
+  "actionReadText": "READ TEXT",
+  "actionVoice": "VOICE",
+  "actionSettings": "SETTINGS",
+  "actionTutorial": "TUTORIAL",
+  "demoModeOn": "Demo ON",
+  "demoModeOff": "Demo OFF",
+  "cancelEmergencyHint": "Cancel emergency. Tap anywhere to cancel.",
+  "emergencyNumberTitle": "Emergency number",
+  "emergencyNumberHelp": "Dialled only when no emergency contact is saved. 112 works across Europe and India; 911 in the US.",
+  "emergencyNumberSaved": "Emergency number set to {number}",
+  "@emergencyNumberSaved": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "testBuildWarning": "Test build: SOS dials {number}, not emergency services.",
+  "@testBuildWarning": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "sosEmergencyHeading": "SOS EMERGENCY",
+  "sosHelpRequested": "Help has been requested",
+  "sosAlertFailed": "Emergency alert failed",
+  "sosStatusHeading": "Status",
+  "sosLocationHeading": "Location",
+  "sosEmergencyCallLabel": "Emergency Call",
+  "sosCallMade": "Made",
+  "sosCallNotMade": "Not made",
+  "sosSmsTo": "Message to {name}",
+  "@sosSmsTo": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSmsSent": "Sent",
+  "sosCallNumber": "CALL {number}",
+  "@sosCallNumber": {
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "sosSendSms": "SEND MESSAGE",
+  "sosCoordinates": "Coordinates: {lat}, {lng}",
+  "@sosCoordinates": {
+    "placeholders": {
+      "lat": {
+        "type": "String"
+      },
+      "lng": {
+        "type": "String"
+      }
+    }
+  },
+  "voiceCommandTitle": "Voice Command",
+  "voiceTapMicToSpeak": "Tap mic to speak",
+  "voiceProcessing": "Processing...",
+  "voiceEnterCommand": "Enter command",
+  "voiceExecute": "Execute",
+  "voiceUnavailableTyped": "Voice recognition is not available. Please type your command.",
+  "mapTitle": "Live Map",
+  "mapDestination": "Destination",
+  "mapLocationInvalid": "Location not valid",
+  "settingsTitle": "Settings",
+  "settingsTextSize": "Text Size",
+  "settingsButtonSize": "Button Size",
+  "settingsContrast": "Contrast",
+  "settingsVibration": "Vibration Intensity",
+  "settingsVoiceSpeed": "Voice Speed",
+  "settingsCommandDelay": "Command Delay",
+  "settingsCommandDelayHelp": "Pause before executing voice commands",
+  "voiceUseKeyboard": "Type the command instead",
+  "voiceUseMicrophone": "Speak the command instead",
+  "voiceUnavailable": "Voice commands are not available. Check that the microphone permission is granted.",
+  "voiceNothingHeard": "I did not hear anything. Try again.",
+  "voiceNotUnderstood": "I did not understand that. Say help to hear the list of commands.",
+  "voiceHelpList": "You can say: start navigation, stop, next, repeat, describe, what's ahead, camera on, camera off, flashlight on, read text, what's nearby, time, battery, where am I, faster, slower, pause, resume, status, navigate to a place, save location, or S O S.",
+  "nearbyPlacesSearching": "Looking for places nearby",
+  "nearbyPlacesNone": "I could not find anything nearby",
+  "nearbyPlacesUnavailable": "Nearby places are not available right now",
+  "nearbyPlacesFound": "Nearby: {places}",
+  "@nearbyPlacesFound": {
+    "placeholders": {
+      "places": {
+        "type": "String"
+      }
+    }
+  },
+  "nearbyPlaceItem": "{name}, {distance} metres",
+  "@nearbyPlaceItem": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "distance": {
+        "type": "String"
+      }
+    }
+  },
+  "semanticsStart": "Start navigation",
+  "semanticsStop": "Stop navigation",
+  "semanticsSos": "Emergency SOS",
+  "semanticsNext": "Next step",
+  "semanticsCameraOn": "Obstacle detection, on",
+  "semanticsCameraOff": "Obstacle detection, off",
+  "semanticsAutoDescribeOn": "Spoken descriptions, on",
+  "semanticsAutoDescribeOff": "Spoken descriptions, off",
+  "semanticsPhoto": "Describe a photo",
+  "semanticsReadText": "Read text",
+  "semanticsVoice": "Voice command",
+  "hintDestinationField": "Type where you want to go, then activate Start navigation",
+  "hintNavigate": "Starts spoken turn by turn directions to the destination above",
+  "hintStopNavigation": "Ends the route you are following",
+  "hintSos": "Starts a ten second countdown, then texts and calls your emergency contacts. Tap anywhere to cancel during the countdown",
+  "hintNext": "Reads the next direction on your route",
+  "hintCamera": "Turns obstacle detection on or off",
+  "hintAutoDescribe": "Turns automatic spoken descriptions of your surroundings on or off",
+  "hintContacts": "Opens the list of people contacted in an emergency",
+  "hintMap": "Opens the live map of your location",
+  "hintPhoto": "Takes a photo and describes what is in it",
+  "hintReadText": "Reads out any text the camera can see",
+  "hintVoice": "Opens voice commands. You can also triple tap the screen",
+  "hintSettings": "Opens text size, speech and emergency settings",
+  "hintTutorial": "Explains how to use the app",
+  "hintDemoMode": "Runs the app with sample data instead of live services",
+  "settingsBackgroundProtection": "Background Fall Protection",
+  "settingsBackgroundProtectionHelp": "Keeps watching for a fall when the app is closed or the screen is off. Shows a persistent notification and uses a little more battery.",
+  "settingsBackgroundProtectionOn": "Background fall protection turned on",
+  "settingsBackgroundProtectionOff": "Background fall protection turned off",
+  "backgroundSosBannerTitle": "Possible fall detected",
+  "backgroundSosBannerBody": "Calling for help soon. Tap Cancel if you are okay.",
+  "backgroundSosCancelButton": "Cancel Emergency",
+  "settingsAddFromContacts": "Add from Contacts",
+  "settingsNoContactSelected": "No contact selected, or permission denied",
+  "settingsResetDefaults": "Reset to Defaults",
+  "settingsResetDone": "Settings reset to defaults",
+  "settingsCurrentValue": "Current: {value}",
+  "@settingsCurrentValue": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsErrorGeneric": "Error: {message}",
+  "@settingsErrorGeneric": {
+    "placeholders": {
+      "message": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNoContacts": "No contacts added",
+  "tutorialTitle": "Tutorial ({current} of {total})",
+  "@tutorialTitle": {
+    "placeholders": {
+      "current": {
+        "type": "String"
+      },
+      "total": {
+        "type": "String"
+      }
+    }
+  },
+  "tutorialNext": "Next",
+  "tutorialPrevious": "Previous",
+  "tutorialFinish": "Finish",
+  "tutorialComplete": "Tutorial complete. You can now use the app.",
+  "tutorialWelcomeTitle": "Welcome",
+  "tutorialWelcomeBody": "Welcome to GaBN. This app helps you navigate safely using your camera and voice commands.",
+  "tutorialCameraTitle": "Camera Preview",
+  "tutorialCameraBody": "The camera preview shows what is in front of you. Keep the phone upright, facing forward.",
+  "tutorialObstacleTitle": "Obstacle Detection",
+  "tutorialObstacleBody": "The app detects objects in front of you. It will tell you what obstacles are ahead and where they are.",
+  "tutorialSosTitle": "Emergency SOS",
+  "tutorialSosBody": "Press the SOS button or shake your phone vigorously to raise an alert. Your location is sent to your emergency contacts. To cancel, tap anywhere or press a volume button.",
+  "tutorialVoiceTitle": "Voice Commands",
+  "tutorialVoiceBody": "You can control the app by voice. Say \"help\" to hear every command, or \"navigate to\" followed by a place name.",
+  "tutorialPhotoTitle": "Photo Capture",
+  "tutorialPhotoBody": "Press the photo button or double-press a volume button to capture a photo. The app will describe what it sees.",
+  "tutorialTextTitle": "Text Reading",
+  "tutorialTextBody": "Use the Read Text button, or say \"read text\", to read any text visible in the camera view.",
+  "tutorialSavedTitle": "Saved Locations",
+  "tutorialSavedBody": "You can save your current location and go back to it later by saying \"navigate to\" and the name, such as \"navigate to home\".",
+  "tutorialSettingsTitle": "Settings",
+  "tutorialSettingsBody": "Adjust text size, button size and contrast in Settings to make the app easier to use.",
+  "sosSmsNeedsSend": "Needs you to press send",
+  "sosSmsFailed": "Failed",
+  "routeFound": "Route found. {distance}. {duration}.",
+  "@routeFound": {
+    "placeholders": {
+      "distance": {
+        "type": "String"
+      },
+      "duration": {
+        "type": "String"
+      }
+    }
+  },
+  "saveLocationTitle": "Save Location",
+  "settingsTextSizeSet": "Text size set to {value}",
+  "@settingsTextSizeSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsButtonSizeSet": "Button size set to {value} percent",
+  "@settingsButtonSizeSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsContrastSet": "Contrast set to {value}",
+  "@settingsContrastSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsVibrationSet": "Vibration intensity {value} percent",
+  "@settingsVibrationSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsCommandDelaySet": "Command delay {value} milliseconds",
+  "@settingsCommandDelaySet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsVoiceSpeedSet": "Voice speed {value}",
+  "@settingsVoiceSpeedSet": {
+    "placeholders": {
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "contactAddedNamed": "Added {name} to emergency contacts",
+  "@contactAddedNamed": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosCallingContact": "Calling: {name}",
+  "@sosCallingContact": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "sosOverlayHeading": "EMERGENCY SOS",
+  "actionCancelUpper": "CANCEL",
+  "sosEmergencyServices": "Emergency services"
+}
